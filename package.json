@@ -54,6 +54,7 @@
     "build:vanilla": "rollup -c --config-vanilla",
     "build:utils": "rollup -c --config-utils",
     "build:macro": "rollup -c --config-macro",
+    "build:react": "rollup -c --config-react",
     "postbuild": "yarn copy",
     "eslint": "eslint --fix '{src,tests}/**/*.{js,ts,jsx,tsx}'",
     "eslint:ci": "eslint '{src,tests}/**/*.{js,ts,jsx,tsx}'",
